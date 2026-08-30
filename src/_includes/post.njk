@@ -1,0 +1,45 @@
+---
+layout: base.njk
+ogType: article
+---
+<article>
+  <div class="post-header">
+    {% if season %}<p class="entry-eyebrow">{{ season }}</p>{% endif %}
+    {% include "strata.njk" %}
+    <h1 class="post-title">{{ title }}</h1>
+    <p class="post-meta"><time datetime="{{ date | isoDate }}">{{ date | readableDate }}</time></p>
+  </div>
+
+  {% if image %}
+  <img class="post-hero" src="{{ image }}" alt="{{ imageAlt or title }}">
+  {% endif %}
+
+  <div class="post-body">
+    {{ content | safe }}
+  </div>
+
+  {% if tags %}
+  <div class="post-tags">
+    {% for tag in tags %}{% if tag != "post" %}<a href="/tags/{{ tag | slugify }}/">{{ tag }}</a>{% endif %}{% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="comments">
+    <p class="comments-label">Comments</p>
+    <script src="https://giscus.app/client.js"
+      data-repo="{{ site.giscus.repo }}"
+      data-repo-id="{{ site.giscus.repoId }}"
+      data-category="{{ site.giscus.category }}"
+      data-category-id="{{ site.giscus.categoryId }}"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="light"
+      data-lang="en"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </div>
+</article>

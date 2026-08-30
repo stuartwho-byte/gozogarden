@@ -1,0 +1,16 @@
+---
+layout: base.njk
+---
+{% include "strata.njk" %}
+<p class="intro">{{ site.description }}</p>
+
+<ul class="entry-list">
+  {% for post in collections.posts %}
+  <li class="entry-card">
+    <p class="entry-eyebrow">{% if post.data.season %}{{ post.data.season }} · {% endif %}{{ post.date | readableDate }}</p>
+    <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+    <p class="entry-dek">{{ post.data.excerpt or (post.templateContent | excerpt(40)) }}</p>
+    {% if post.data.image %}<img class="entry-thumb" src="{{ post.data.image }}" alt="{{ post.data.imageAlt or post.data.title }}">{% endif %}
+  </li>
+  {% endfor %}
+</ul>

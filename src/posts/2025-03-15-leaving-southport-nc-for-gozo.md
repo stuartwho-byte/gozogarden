@@ -19,11 +19,11 @@ People who came to sit out there told us it felt like a private resort — insid
 
 And then, somewhere around year thirteen, we got itchy feet.
 
-![A stone Buddha head tucked among the azaleas](/images/leaving-southport-buddha.jpg)
-
 I don't think either of us could tell you the exact moment it started. It's more that after thirteen years in one place, you start eyeing the map again — not because anything's wrong, but because you built this life once and some part of you wonders if you could build another one somewhere else. We started talking about where "somewhere else" might actually be, and I came to the conversation with exactly two non-negotiables. First: they had to speak English. Not as a courtesy — as a necessity. I wanted to be able to stand in the driveway with a plumber and actually understand what he was telling me was wrong, without a translation app doing the work. Second: it had to be warm. Decades of New York winters and a handful of Carolina ones felt like enough for one lifetime.
 
 That's a short list, but it turns out it doesn't rule out much of the English-speaking world. I handed Sabine those two criteria, and the next morning she came back with Malta. A little more digging narrowed it further, to Gozo — the quieter island next door, the one people describe as what Malta was fifty years ago. Friends back home still talk about how much courage it must have taken to just pick up and move to a Mediterranean island. Honestly, it wasn't courage so much as paperwork — with dual citizenship already sorted on both sides, moving into the EU was never the leap from the outside it looked like. We flew out for a month, not to vacation, but to actually scope it out: walking properties, getting a feel for towns, trying to picture ourselves there in a way that photos online never quite let you do.
+
+![A stone Buddha head tucked among the azaleas](/images/leaving-southport-buddha.jpg)
 
 That's how we found the house in St. Lawrenz — a rental this time, not a purchase. It had a walled garden, which mattered to me more than I expected it to, given I'd just spent thirteen years building one from scratch on the other side of the Atlantic, plus a pool and more space in the house itself than we'd had in Southport. We stood in that garden and it was obvious. Not a maybe. A dream, really, is the only honest word for it.
 

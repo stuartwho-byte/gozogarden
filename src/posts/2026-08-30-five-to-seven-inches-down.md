@@ -1,7 +1,6 @@
 ---
 title: Five to Seven Inches Down
 date: 2026-08-30
-season: Late summer
 excerpt: For a year, plants kept dying in the same spots for what looked like different reasons. This summer the site finally admitted why — and it wasn't the soil chemistry everyone assumed.
 tags: [drainage, diagnosis, iron chlorosis, terrasoil]
 ---

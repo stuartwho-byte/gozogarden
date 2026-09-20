@@ -247,9 +247,26 @@ main { padding: 2.2rem 0 4rem; }
 }
 .post-body h3 { font-size: 1.1rem; margin-top: 1.6em; }
 .post-body img {
-  width: 100%;
+  width: 46%;
+  float: right;
   border-radius: var(--radius);
-  margin: 0.4em 0 0.6em;
+  margin: 0.3em 0 1.2em 1.5rem;
+}
+.post-body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.post-body h2,
+.post-body h3 {
+  clear: both;
+}
+@media (max-width: 640px) {
+  .post-body img {
+    float: none;
+    width: 100%;
+    margin: 0.4em 0 0.6em;
+  }
 }
 .post-body figcaption {
   font-family: var(--font-mono);
